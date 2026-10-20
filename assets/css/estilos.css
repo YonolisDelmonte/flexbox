@@ -72,7 +72,7 @@ header.portada {
     }
 }
 
-.img-before {
+ul.galeria {
     & figure {
         position: relative;
         height: 30rem;
@@ -96,7 +96,7 @@ header.portada {
     }
 }
 
-.img-before {
+ul.galeria {
     & figure {
         background-color: blue;
 
