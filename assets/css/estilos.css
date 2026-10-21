@@ -11,8 +11,30 @@
 
     --bg-img-galeria-5: url("https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_1280.jpg");
 
+    --logo: url("../img/foto_perfil.webp");
+    --logo-ratio: 248/185;
+    --marca-agua-h: 5rem;
+
     --color-a: steelblue;
     --color-a--hover: red;
+}
+
+.agua {
+    &::before {
+        position: fixed;
+        content: "";
+        width: var(--marca-agua-h) * var(--logo-ratio);
+        height: var(--marca-agua-h);
+        bottom: 1rem;
+        right: 1rem;
+
+        background-image: var(--logo);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        opacity: 0.2;
+    }
 }
 
 html,
