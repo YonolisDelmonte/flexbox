@@ -10,6 +10,9 @@
     --bg-img-galeria-4: url("https://cdn.pixabay.com/photo/2020/10/02/21/06/dome-5622133_1280.jpg");
 
     --bg-img-galeria-5: url("https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_1280.jpg");
+
+    --color-a: steelblue;
+    --color-a--hover: red;
 }
 
 html,
@@ -32,6 +35,27 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+ul:not(.enlace-pdf) {
+    /* text-decoration: none; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.enlace-pdf {
+    & li {
+        /* background-color: lime; */
+        /* margin: 0.5rem 0; */
+        line-height: 2;
+    }
+
+    & a {
+        color: var(--color-a);
+
+        &:hover {
+            color: var(--color-a--hover);
+        }
+    }
 }
 
 & figure {
