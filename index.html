@@ -1,24 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
-        <!-- Juego de caracteres de casi todos los idiomas humanos (incluidos ñ, tildes ...) -->
         <meta charset="utf-8" />
-        <!-- Escala inicial y renderizado _responsive_ por el ancho del dispositivo -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Compatibilidad con Microsoft Explorer -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <!-- Indéxame NO y sígueme NO -->
         <meta name="robots" content="noIndex, noFollow" />
-        <!-- Breve descripción del sitio que se verá en los resultados de búsqueda -->
         <meta name="description" content="Sitio web de prueba elaborado en el curso de Confección y Publicación de Páginas Web (IFCD0110). Unidad Formativa UF1303, Elaboración de hojas de estilos" />
-        <!-- Ruta al favicon -->
-        <!-- Utilícese una hoja de estilos Normalize -->
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css" />
-        <!-- Ruta a las hojas de estilos -->
-        <link rel="stylesheet" href="assets/css/estilos.css" />
-        <!-- Título de la pestaña del navegador -->
 
-        <link href="css/hover.css" rel="stylesheet" media="all" />
+        <link rel="stylesheet" href="assets/css/hover.css" />
+
+        <link rel="stylesheet" href="assets/css/estilos.css" />
 
         <title>UF1303 | Elaboración de hojas de estilos</title>
     </head>
@@ -26,62 +17,90 @@
     <body>
         <header></header>
         <nav></nav>
-        <main>
-            <section class="agua">
-                <header class="portada">
+        <main class="agua">
+            <section>
+                <header class="img-before portada">
                     <h2>Imágenes en CSS</h2>
                 </header>
                 <article>
-                    <h3>Referencias Teoricas</h3>
-                    <p>Referencias</p>
-
+                    <h3>Referencias teóricas</h3>
+                    <figure class="hvr-overline-reveal"></figure>
+                    <p>Enlaces y documentos de interés:</p>
                     <ul class="enlaces-pdf">
                         <li>
-                            <a href="assets/pdf/UF1303_Elaboracion-hojas-de-estilo.pdf" target="_blank">UF1303 - Elaboraciónde hojas de estilos</a>
+                            <a href="assets/pdf/CSS_Guia_ref_rap.pdf" target="_blank" class="pepe">Guía CSS de referencia rápida </a>
                         </li>
                         <li>
-                            <a href="assets/pdf/CSS_Manual_rapido.pdf" target="_blank">Manual Rápido de CSS</a>
+                            <a href="" target="_blank" class="hvr-overline-reveal">Manual rápido de CSS </a>
                         </li>
                         <li>
-                            <a href="assets/pdf/CSS_Guia_ref_rap.pdf" target="_blank">Guía de referencia rápida CSS</a>
+                            <a href="assets/pdf/CSS_posicionamiento_relativo_absoluto.pdf" target="_blank" class="hvr-overline-reveal">Posicionamiento relativo y absoluto en CSS </a>
                         </li>
                         <li>
-                            <a href="assets/pdf/CSS_posicionamiento_relativo_absoluto.pdf" target="_blank">Posicionamiento relativo Absoluto CSS</a>
+                            <a href="assets/pdf/UF1303_Elaboracion-hojas-de-estilo.pdf" target="_blank" class="hvr-overline-reveal">Manual de la UF1303 Creación de hojas de estilos </a>
                         </li>
                     </ul>
                 </article>
-
                 <article class="galeria-flex">
                     <h3>Galería de imágenes</h3>
                     <p>Parrilla de imágenes con Flexbox</p>
 
                     <ul class="galeria">
-                        <li class="hvr-wobble-to-bottom-right">
-                            <figure class="diapositiva-1 img-before">
+                        <li>
+                            <figure class="img-before diapositiva-1">
                                 <figcaption>Foto 1</figcaption>
                             </figure>
                         </li>
 
                         <li>
-                            <figure class="diapositiva-2 img-before">
+                            <figure class="img-before diapositiva-2">
                                 <figcaption>Foto 2</figcaption>
                             </figure>
                         </li>
 
                         <li>
-                            <figure class="diapositiva-3 img-before">
+                            <figure class="img-before diapositiva-3">
                                 <figcaption>Foto 3</figcaption>
                             </figure>
                         </li>
 
                         <li>
-                            <figure class="diapositiva-4 img-before">
+                            <figure class="img-before diapositiva-4">
                                 <figcaption>Foto 4</figcaption>
                             </figure>
                         </li>
 
                         <li>
-                            <figure class="diapositiva-5 img-before">
+                            <figure class="img-before diapositiva-5">
+                                <figcaption>Foto 5</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure class="img-before diapositiva-1">
+                                <figcaption>Foto 1</figcaption>
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure class="img-before diapositiva-2">
+                                <figcaption>Foto 2</figcaption>
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure class="img-before diapositiva-3">
+                                <figcaption>Foto 3</figcaption>
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure class="img-before diapositiva-4">
+                                <figcaption>Foto 4</figcaption>
+                            </figure>
+                        </li>
+
+                        <li>
+                            <figure class="img-before diapositiva-5">
                                 <figcaption>Foto 5</figcaption>
                             </figure>
                         </li>
