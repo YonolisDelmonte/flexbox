@@ -17,6 +17,41 @@
     --color-2: blue;
     --color-3: orange;
     --color-4: black;
+
+    /* Imágenes obtenidas gracias a https://pixfill.dev/ */
+
+    --carrousel-1--origin: url("https://pixfill.dev/1920x1280/6A5ACD/ffffff");
+    --carrousel-1--large: url("https://pixfill.dev/1024x683/6A5ACD/ffffff");
+    --carrousel-1--medium-large: url("https://pixfill.dev/768x512/6A5ACD/ffffff");
+    --carrousel-1--medium: url("https://pixfill.dev/480x320/6A5ACD/ffffff");
+    --carrousel-1--thumb: url("https://pixfill.dev/300x200/6A5ACD/ffffff");
+
+    --carrousel-2--origin: url("https://pixfill.dev/1920x1280/6B8E23/ffffff");
+    --carrousel-2--large: url("https://pixfill.dev/1024x683/6B8E23/ffffff");
+    --carrousel-2--medium-large: url("https://pixfill.dev/768x512/6B8E23/ffffff");
+    --carrousel-2--medium: url("https://pixfill.dev/480x320/6B8E23/ffffff");
+    --carrousel-2--thumb: url("https://pixfill.dev/300x200/6B8E23/ffffff");
+
+    --carrousel-3--origin: url("https://pixfill.dev/1920x1280/B22222/ffffff");
+    --carrousel-3--large: url("https://pixfill.dev/1024x683/B22222/ffffff");
+    --carrousel-3--medium-large: url("https://pixfill.dev/768x512/B22222/ffffff");
+    --carrousel-3--medium: url("https://pixfill.dev/480x320/B22222/ffffff");
+    --carrousel-3--thumb: url("https://pixfill.dev/300x200/B22222/ffffff");
+
+    --carrousel-4--origin: url("https://pixfill.dev/1920x1280/BDB76B/ffffff");
+    --carrousel-4--large: url("https://pixfill.dev/1024x683/BDB76B/ffffff");
+    --carrousel-4--medium-large: url("https://pixfill.dev/768x512/BDB76B/ffffff");
+    --carrousel-4--medium: url("https://pixfill.dev/480x320/BDB76B/ffffff");
+    --carrousel-4--thumb: url("https://pixfill.dev/300x200/BDB76B/ffffff");
+
+    --carrousel-5--origin: url("https://pixfill.dev/1920x1280/808080/ffffff");
+    --carrousel-5--large: url("https://pixfill.dev/1024x683/808080/ffffff");
+    --carrousel-5--medium-large: url("https://pixfill.dev/768x512/808080/ffffff");
+    --carrousel-5--medium: url("https://pixfill.dev/480x320/808080/ffffff");
+    --carrousel-5--thumb: url("https://pixfill.dev/300x200/808080/ffffff");
+
+    --ratio-galeria: 3/2;
+    --h-carrousel: 50vh;
 }
 
 /* Underline From Center */
@@ -200,6 +235,25 @@ ul.galeria {
             &:hover::before {
                 transform: scale(1.2);
             }
+        }
+    }
+}
+
+article.carrusel-container {
+    min-height: 100vh;
+
+    & ul.carrusel {
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;
+
+        & li figure {
+            background-color: lime;
+        }
+
+        & li figure.diapositiva-1 {
+            background-image: var(--carrousel-1--thumb);
         }
     }
 }
