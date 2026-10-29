@@ -1,0 +1,56 @@
+:root {
+    /* Colores del sitio */
+    --color-a: steelblue;
+    --color-a--hover: rgb(255, 38, 0);
+
+    --color-1: red;
+    --color-2: blue;
+    --color-3: orange;
+    --color-4: black;
+
+    /* Imágenes del sitio  */
+    --bg-img-portada: url("https://cdn.pixabay.com/photo/2020/02/09/13/08/banner-4833105_1280.jpg");
+    --bg-img-galeria-1: url("https://cdn.pixabay.com/photo/2017/11/11/21/55/freedom-2940655_1280.jpg");
+    --bg-img-galeria-2: url("https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944_1280.jpg");
+    --bg-img-galeria-3: url("https://cdn.pixabay.com/photo/2018/05/09/22/51/blue-sky-3386409_1280.jpg");
+    --bg-img-galeria-4: url("https://cdn.pixabay.com/photo/2020/10/02/21/06/dome-5622133_1280.jpg");
+    --bg-img-galeria-5: url("https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_1280.jpg");
+    --logo-url: url("../img/foto_perfil.webp");
+    --logo-ratio: 248/165;
+    --marca-agua-h: 5rem;
+
+    /* Imágenes obtenidas gracias a https://pixfill.dev/ */
+
+    --carrousel-1--origin: url("https://pixfill.dev/1920x1280/6A5ACD/ffffff");
+    --carrousel-1--large: url("https://pixfill.dev/1024x683/6A5ACD/ffffff");
+    --carrousel-1--medium-large: url("https://pixfill.dev/768x512/6A5ACD/ffffff");
+    --carrousel-1--medium: url("https://pixfill.dev/480x320/6A5ACD/ffffff");
+    --carrousel-1--thumb: url("https://pixfill.dev/300x200/6A5ACD/ffffff");
+
+    --carrousel-2--origin: url("https://pixfill.dev/1920x1280/6B8E23/ffffff");
+    --carrousel-2--large: url("https://pixfill.dev/1024x683/6B8E23/ffffff");
+    --carrousel-2--medium-large: url("https://pixfill.dev/768x512/6B8E23/ffffff");
+    --carrousel-2--medium: url("https://pixfill.dev/480x320/6B8E23/ffffff");
+    --carrousel-2--thumb: url("https://pixfill.dev/300x200/6B8E23/ffffff");
+
+    --carrousel-3--origin: url("https://pixfill.dev/1920x1280/B22222/ffffff");
+    --carrousel-3--large: url("https://pixfill.dev/1024x683/B22222/ffffff");
+    --carrousel-3--medium-large: url("https://pixfill.dev/768x512/B22222/ffffff");
+    --carrousel-3--medium: url("https://pixfill.dev/480x320/B22222/ffffff");
+    --carrousel-3--thumb: url("https://pixfill.dev/300x200/B22222/ffffff");
+
+    --carrousel-4--origin: url("https://pixfill.dev/1920x1280/BDB76B/ffffff");
+    --carrousel-4--large: url("https://pixfill.dev/1024x683/BDB76B/ffffff");
+    --carrousel-4--medium-large: url("https://pixfill.dev/768x512/BDB76B/ffffff");
+    --carrousel-4--medium: url("https://pixfill.dev/480x320/BDB76B/ffffff");
+    --carrousel-4--thumb: url("https://pixfill.dev/300x200/BDB76B/ffffff");
+
+    --carrousel-5--origin: url("https://pixfill.dev/1920x1280/808080/ffffff");
+    --carrousel-5--large: url("https://pixfill.dev/1024x683/808080/ffffff");
+    --carrousel-5--medium-large: url("https://pixfill.dev/768x512/808080/ffffff");
+    --carrousel-5--medium: url("https://pixfill.dev/480x320/808080/ffffff");
+    --carrousel-5--thumb: url("https://pixfill.dev/300x200/808080/ffffff");
+
+    --ratio-galeria: 3/2;
+    --h-carrousel: 50vh;
+}
