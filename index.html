@@ -7,7 +7,9 @@
         <meta name="robots" content="noIndex, noFollow" />
         <meta name="description" content="Sitio web de prueba elaborado en el curso de Confección y Publicación de Páginas Web (IFCD0110). Unidad Formativa UF1303, Elaboración de hojas de estilos" />
 
+        <link rel="stylesheet" href="assets/css/visibilidad.css" />
         <link rel="stylesheet" href="assets/css/variables.css" />
+        <link rel="stylesheet" href="assets/css/menu.css" />
         <link rel="stylesheet" href="assets/css/tranforms.css" />
         <link rel="stylesheet" href="assets/css/img.css" />
         <!-- <link rel="stylesheet" href="assets/css/hoverCss.css" /> -->
@@ -18,7 +20,35 @@
 
     <body>
         <header></header>
-        <nav></nav>
+
+        <nav class="principal" aria-label="Navegación principal">
+            <h2 class="pechado">Menú Principal</h2>
+            <input id="icon-menu" name="icon-menu" type="checkbox" />
+            <label for="icon-menu" class="icon-menu" aria-label="Abrir/Cerrar menú">Menú</label>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Temas</a>
+                    <ul>
+                        <li>
+                            <a href="textos.html">Textos</a>
+                        </li>
+                        <li>
+                            <a href="imagenes.html">Imagenes</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
         <main class="agua">
             <section>
                 <header class="img-before portada">

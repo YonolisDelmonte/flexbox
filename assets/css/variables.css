@@ -1,4 +1,19 @@
 :root {
+    /* Font Size */
+    --font-size-m: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+    --font-size-s: clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
+
+    /* h2 */
+    --font-size-xxxl: clamp(2.25rem, 1.6rem + 3.2vw, 4.5rem);
+    /* h3 */
+    --font-size-xxl: clamp(1.6rem, 1.4rem + 1.5vw, 2.4rem);
+    /* h4 */
+    --font-size-xl: clamp(1.4rem, 1.2rem + 1.5vw, 2.2rem);
+    /* h5 */
+    --font-size-l: clamp(1.2rem, 1rem + 1.5vw, 2rem);
+    /* h6 */
+    /* --font-size-m */
+
     /* Colores del sitio */
     --color-a: steelblue;
     --color-a--hover: rgb(255, 38, 0);
@@ -7,6 +22,9 @@
     --color-2: blue;
     --color-3: orange;
     --color-4: black;
+
+    --bg-menu-1: #eee8aa;
+    --bg-menu-2: #7fff00;
 
     /* Imágenes del sitio  */
     --bg-img-portada: url("https://cdn.pixabay.com/photo/2020/02/09/13/08/banner-4833105_1280.jpg");
