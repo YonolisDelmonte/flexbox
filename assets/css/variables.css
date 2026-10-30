@@ -26,6 +26,8 @@
     --bg-menu-1: #eee8aa;
     --bg-menu-2: #7fff00;
 
+    --logo-ratio: 1/1;
+
     /* Imágenes del sitio  */
     --bg-img-portada: url("https://cdn.pixabay.com/photo/2020/02/09/13/08/banner-4833105_1280.jpg");
     --bg-img-galeria-1: url("https://cdn.pixabay.com/photo/2017/11/11/21/55/freedom-2940655_1280.jpg");
